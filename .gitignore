@@ -1,0 +1,20 @@
+# Output files — too large for git
+output/*.mp4
+output/*.wav
+output/*.avi
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+src/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Review frames (large image sets)
+output/review_frames/
+
+# Temporary renders
+*.tmp.mp4
